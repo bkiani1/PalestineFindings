@@ -1,0 +1,80 @@
+header, nav, main, footer, figure, figcaption { display: block; }
+* {box-sizing: border-box; }
+body { font-family: Verdana, Arial, sans-serif;
+       background-color: #330000; 
+}
+#wrapper { background-color:#ff4d58;
+           color: black;
+           width: 80%;
+		   margin: auto;
+           min-width:850px;
+           
+} 
+figcaption{ font-size: small;}
+
+
+
+header { background-color: #869dc7;
+        color: #00005D; 
+        font-size: 150%; 
+        padding: 10px 10px 10px 155px;
+		background-image: url(Palestine-Flag-Banner.jpg); 
+		background-repeat: no-repeat;
+		background-size:cover;
+}
+nav { float: right;
+	   width: 150px;
+	   letter-spacing:0.1em;
+	   font-weight: bold;
+	   
+} 
+nav ul { list-style-type: none; 
+          margin: 0;
+          padding: 0;
+          font-family: times new roman;
+}
+nav a { text-decoration: none; 
+         display: block;
+	     padding: 20px;    
+         background-color: #ff4d58;    
+	     border-bottom: 1px solid black; 
+	
+	     background-repeat: no-repeat; 
+	     background-position: right 0;
+	     	 
+}
+nav a:link    { color: #ffffff;  }
+nav a:visited { color: #eaeaea; }
+nav a:hover   { background-color: #eaeaea;
+                 color: black; 
+                 background-position:right -100px;}
+main { 
+           color: black;
+		   padding: 10px 20px;
+	       overflow: auto; 
+	      background-color: #ffffff;
+} 
+
+
+
+h1 { text-align: center;
+     margin-bottom: 20px;
+	 padding: .5% 0;
+     text-shadow: 3px 3px 3px #F4E8BC;	
+     color:#003300;
+}
+
+
+h2 { color: #003300; 
+     font-family: arial, sans-serif;
+}
+#floatright { margin: 10px;
+             float: right;
+}
+footer {font-size:70%;
+         text-align: center;
+         font-style: italic;
+         padding: 10px;
+         background-color: #ff4d58;
+		 clear: both;
+}

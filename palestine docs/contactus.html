@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="icon" type="image/x-icon" href="palestine.ico" />
+	<title>Contact Us</title>
+	<meta charset="utf-8">
+
+
+	<style>
+		nav a:link    { color: #ffffff;  }
+nav a:visited { color: #eaeaea; }
+nav a:hover   { background-color: #eaeaea;
+                 color: black; 
+                 background-position:right -100px;}
+                 nav ul { list-style-type: none; 
+          margin: 0;
+          padding: 0;
+}
+nav a { text-decoration: none; 
+         display: block;
+	     padding: 20px;    
+         background-color: #ff4d58;    
+	     border-bottom: 1px solid black; 
+	   
+	    
+	     background-position: right 0;
+	     	 
+}
+h2{ font-family:   reem kufi, arial;
+font-size: 300%;}
+h3{ font-family: reem kufi;
+font-size: 200%;}
+
+nav { float: right;
+	   width: 150px;
+	   letter-spacing:0.1em;
+	   font-weight: bold;  
+	   
+} 
+
+
+footer { text-align:center;
+         font-size: 80%;
+		 font-style: italic;
+		 color: black;
+		 padding:20%;
+		 
+		
+        
+}
+
+
+
+form{text-align:center;}
+		   
+         
+	   
+
+
+	body{background-image: url("palestinepeace.jpg");}
+	
+	
+		fieldset{ background-color:green;
+		width: 520px;
+		border: 8px dashed red;
+		margin:55px;
+		margin:auto;}
+		
+		legend {font-family: verdana;
+		font-size: x-large; }
+		
+		fieldset label {background-color:red;
+		color: black;}
+		fieldset input{ background-color:white; 
+		color: black;}
+	textarea { background-color:white;}
+	h2{text-align:center;
+	}
+	h3{text-align:center;
+	}
+	
+	#mySubmit { margin-left: 7em; 
+	width: 10em;  height: 2em;
+	 background-color: black;
+	 color:white;
+	 font-size: large;
+	}
+	#reset { margin-left: 7em; 
+	width: 10em;  height: 2em;
+	 background-color: black;
+	 color:white;
+	 	 font-size: large;
+	 
+	}
+	
+	
+	</style>
+	
+	<script>
+function validateform(){
+if(document.forms[0].firstname.value == ""){
+alert("name field cannot be empty");
+return false;
+}
+
+
+if(document.forms[0].lastname.value == ""){
+alert("last name field cannot be empty");
+return false;
+}
+
+
+if(document.forms[0].email.value == ""){
+alert("email field cannot be empty");
+return false;
+}
+
+
+}
+</script>
+
+</head>
+
+<body>
+
+ <nav>
+    <ul>
+	 <li><a href="palestineoption2.html">- Home</a></li>
+	 <br>
+     <li><a href="PALESTINE TRY1.html">- Who is Palestine </a></li>
+     	 <br>
+     	  <li><a href="palicensorship.html" > - Censorship </a> </li>
+     	  <br>
+     	  <li><a href="culture.html">-  Culture</a></li>
+     	  <br>
+     	  
+     <li><a href="moreinfo.html">- More Info </a></li>
+     	 <br>
+     <li><a href="contactus.html">- Contact</a></li>
+     	
+      
+	</ul> 
+   </nav>
+
+	<h2> Contact Us </h2>
+	<h3>(اتصل بنا)</h3>
+	
+	
+	
+
+	<form method="post" action="http://webdevbasics.net/scripts/demo.php" onsubmit="return validateform();" >
+		
+		 <fieldset>
+            <legend>Fill in the information please</legend>
+          
+<label for="firstname"> First name: </label>
+<input type="text" name="firstname" id="firstname" >
+
+<label for="lastname"> Last name: </label>
+<input type="text" name="lastname" id="lastname" >
+
+<br>
+
+<label for="email"> E-mail: </label>
+<input type="text" name="email" id="email" >
+
+
+         
+         </fieldset>
+	
+		
+		
+		<br>
+			<br>
+		
+		<fieldset>
+	    <legend>Questions/comments</legend>
+            <textarea name="comments" id="comments" rows="4" cols="40"></textarea>
+            <br><br>
+	 </fieldset>
+		
+		
+  <br>
+		
+		
+		<!-- submit and reset -->
+		
+		<input type="submit" id="mySubmit" value="Submit">
+		<input type="reset"id="reset" value="Reset">
+		
+	</form>
+	
+	
+	 
+   <footer role="contentinfo" >Copyright &copy; Balag Kiani 2020
+   </footer>
+</body>
+</html>
